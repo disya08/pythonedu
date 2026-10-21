@@ -1,0 +1,38 @@
+# first_name = 'Denis'
+# last_name = 'Ivanov'
+# full_name = first_name + " " + last_name
+# print(full_name)
+# length = len(full_name)
+# print(length)
+
+# my_int = 10
+# my_str = str(my_int)
+# print(type(my_str))
+
+# big_int = 5 ** 100
+# print(len(str(big_int)))
+
+# my_str = 'HELLO, WORLD!'
+# print(my_str.replace("WORLD", "Nigger"))
+# print("Nigger" in my_str)
+
+# my_str = "         Hello, world!      "
+# print(my_str.strip())
+
+# my_str = "67"
+# print(my_str.isdigit())
+
+integer = input("Enter your age:")
+
+if integer.isdigit():
+    print("Okay")
+
+    age = int(integer)
+    if age < 18:
+        print("Sorry, you`re too small for this ;c")
+    else:
+        print("Welcome, Boss!")
+
+else:
+    print("Please, write your age")
+
