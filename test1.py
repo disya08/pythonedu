@@ -1,6 +1,6 @@
 Name = input("Please, write your name")
 
-if Name.isalfa():
+if Name.isdigit():
     print("Incorrect form")
 else:
         print("Okay")
@@ -10,4 +10,4 @@ if Age.isdigit():
 else:
     print("Incorrect form")
 
-print(f"Hello, my name is {Name} and I`m {Age} years old! Nice to meet you.")
+print(f"Привет мое имя {Name} и мне {Age} лет иба чотинька.")
